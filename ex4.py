@@ -1,6 +1,6 @@
 a = input('Digite algo: ')
 
-print(f'O tipo primitivo desse valor é {type(a)}')
+print(f'O tipo primitivo desse valor é: {type(a)}')
 print(f'Só tem espaços? {a.isspace()}')
 print(f'É um número? {a.isnumeric()}')
 print(f'É alfabético? {a.isalpha()}')
@@ -10,4 +10,4 @@ print(f'Está em minúsculas? {a.islower()}')
 #capitalizada = maiúsculas e minúsculas
 #não confundir com a.capitalize(), que retorna o valor capitalizado
 print(f'Está capitalizada? {a.istitle()}')
-print(f'Está capitalizada? {a.capitalize()}')
+print(f'Capializado: {a.capitalize()}')
